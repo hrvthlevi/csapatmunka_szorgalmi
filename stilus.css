@@ -37,16 +37,39 @@ body{
 .Kmenu li{
     padding: 10px;
     text-align: center;
+    border: 1px solid #eed9c4;
+    border-width: 2px;
+    transition: background-color 0.3s ease;
 }
 .Kmenu li:hover {
     background-color: #c6b18a;
+     transform: translateY(-3px);
 }
 .Kmenu li:hover a{
     color: #C15A3A;
 }
 .Kmenu a{
+    position: relative;
+    display: inline-block;
     text-decoration: none;
     color: #eed9c4;
+}
+.Kmenu a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;              
+    width: 100%;
+    height: 2px;
+    background: #C15A3A;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s ease;
+    pointer-events: none;
+}
+.Kmenu li:hover a::after,
+.Kmenu a:hover::after {
+    transform: scaleX(1);
 }
 /* Vanda */
 .Ktartalom{
