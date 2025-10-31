@@ -118,7 +118,8 @@ img{
     }
     /* Levi */
     .menu ul{
-   
+        display: grid;
+        grid-template-columns: 1fr;
     }
     /* Vanda */
     .kepesszoveg_bev{
