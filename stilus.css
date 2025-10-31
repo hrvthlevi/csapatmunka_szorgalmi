@@ -43,7 +43,7 @@ body{
 }
 .menu li:hover {
     background-color: #c6b18a;
-     transform: translateY(-3px);
+    transform: translateY(-3px);
 }
 .menu li:hover a{
     color: #C15A3A;
