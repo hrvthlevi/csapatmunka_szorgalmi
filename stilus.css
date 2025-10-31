@@ -17,7 +17,9 @@ body{
 }
 /* Vanda */
 .Kfejlec{
-
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 /* Levi */
 .Kmenu{
@@ -46,9 +48,23 @@ body{
 }
 /* Vanda */
 .Ktartalom{
-
+    padding: 10px;
+    text-align: justify;
+}
+img{
+    width: 100%;
+    padding: 3px;
+    border: 1px solid;
+    border-width: 3px;
+    border-color: bisque;
+}
+.kepesszoveg_bev{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 10px;
 }
 /* Vanda */
 .Klablec{
-
+    background-color: darksalmon;
+    text-align: center;
 }
