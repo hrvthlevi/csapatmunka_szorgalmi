@@ -113,7 +113,8 @@ img{
 @media screen and (max-width: 500px){
     /* Vanda */
     #tarolo{
-
+        width: 100%;
+        font-size:calc(10px +3vw);
     }
     /* Levi */
     .menu ul{
@@ -121,6 +122,6 @@ img{
     }
     /* Vanda */
     .kepesszoveg_bev{
-
+        grid-template-columns: 1fr;
     }
 }
