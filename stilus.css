@@ -108,3 +108,19 @@ img{
     color: #C15A3A;
     margin-top: 10px;
 }
+
+/* Közös */
+@media screen and (max-width: 500px){
+    /* Vanda */
+    #tarolo{
+
+    }
+    /* Levi */
+    .menu ul{
+   
+    }
+    /* Vanda */
+    .kepesszoveg_bev{
+
+    }
+}
