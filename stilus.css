@@ -7,7 +7,6 @@ body{
     font-family: "REM", sans-serif;
 }
 
-/* Kezdőlap formázás */
 /* Levi */
 #tarolo{
     width: 80%;
@@ -27,6 +26,7 @@ body{
 .menu{
     background-color: #846d4c;
 }
+/* Levi */
 .menu ul{
     margin: 0%;
     padding: 0%;
@@ -34,6 +34,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+/* Levi */
 .menu li{
     padding: 10px;
     text-align: center;
@@ -41,19 +42,23 @@ body{
     border-width: 2px;
     transition: background-color 0.3s ease;
 }
+/* Levi */
 .menu li:hover {
     background-color: #c6b18a;
     transform: translateY(-3px);
 }
+/* Levi */
 .menu li:hover a{
     color: #C15A3A;
 }
+/* Levi */
 .menu a{
     position: relative;
     display: inline-block;
     text-decoration: none;
     color: #eed9c4;
 }
+/* Levi */
 .menu a::after {
     content: "";
     position: absolute;
@@ -67,6 +72,7 @@ body{
     transition: transform 0.25s ease;
     pointer-events: none;
 }
+/* Levi */
 .menu li:hover a::after,
 .menu a:hover::after {
     transform: scaleX(1);
@@ -76,6 +82,11 @@ body{
     padding: 10px;
     text-align: justify;
 }
+/* Levi */
+p{
+    margin-top:0%;
+}
+/* Vanda */
 img{
     width: 100%;
     padding: 3px;
@@ -83,6 +94,7 @@ img{
     border-width: 3px;
     border-color: bisque;
 }
+/* Vanda */
 .kepesszoveg_bev{
     display: grid;
     grid-template-columns: 1fr 1fr;
