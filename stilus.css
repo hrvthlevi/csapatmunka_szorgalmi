@@ -60,11 +60,13 @@ img{
 }
 .kepesszoveg_bev{
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: ;
     gap: 10px;
 }
 /* Vanda */
 .Klablec{
-    background-color: darksalmon;
+    background-color: #c6b18a;
     text-align: center;
+    padding: 5px;
+    color: #C15A3A;
 }
