@@ -3,13 +3,17 @@
 }
 /* Levi */
 body{
-
+    background: url(kepek/hatterkep.jpg);
 }
 
 /* Kezdőlap formázás */
 /* Levi */
 #kezdolap_tarolo{
-
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    background-color: #846d4c;
+    color: #eed9c4;
 }
 /* Vanda */
 .Kfejlec{
@@ -17,7 +21,28 @@ body{
 }
 /* Levi */
 .Kmenu{
-
+    background-color: #846d4c;
+}
+.Kmenu ul{
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.Kmenu li{
+    padding: 10px;
+    text-align: center;
+}
+.Kmenu li:hover {
+    background-color: #c6b18a;
+}
+.Kmenu li:hover a{
+    color: #C15A3A;
+}
+.Kmenu a{
+    text-decoration: none;
+    color: #eed9c4;
 }
 /* Vanda */
 .Ktartalom{
